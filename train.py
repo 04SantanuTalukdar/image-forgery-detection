@@ -113,7 +113,7 @@ def train():
 
     print("\nTraining complete.")
     plot_training(history)
-    plot_confusion_matrix(all_labels, all_preds, ['real', 'forged'])
+    plot_confusion_matrix(all_labels, all_preds, ['real', 'fake'])
 
 if __name__ == "__main__":
     train()

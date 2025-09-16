@@ -1,7 +1,7 @@
 class Config:
-    data_dir = "./dataset"         
+    data_dir = "./dataset/train"         
     batch_size = 16             
-    num_epochs = 30
+    num_epochs = 2
     learning_rate = 0.0005
     device = "cuda"
     early_stopping_patience = 5
